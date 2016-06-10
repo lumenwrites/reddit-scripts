@@ -1,14 +1,5 @@
-Title: Top WP stories
-Slug: top-stories-all
-Date: 2016-06-08
 
-<style>
-article {
-word-wrap: break-word;
-}
-</style>
-
-
+Last updated: 2016-06-10
 
 #### [WP] For years an alien race has been intercepting audio transmissions from Earth and understands English. However, they have been exclusively listening to X-Box Live conversations. They have now prepared their first message for Earth.
 

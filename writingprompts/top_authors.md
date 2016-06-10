@@ -1,8 +1,7 @@
-Title: Top authors
-Slug: top-authors
-Date: 2016-06-08
 
-<style>a{color:black;}</style>#### 1.[Luna_LoveWell](https://www.reddit.com/user/Luna_LoveWell/comments/?sort=top)  
+Last updated: 2016-06-10
+
+#### 1.[Luna_LoveWell](https://www.reddit.com/user/Luna_LoveWell/comments/?sort=top)  
 Karma: 141379  
 Last active: 0 days, 21 hours ago  
 

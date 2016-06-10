@@ -1,14 +1,5 @@
-Title: Top WP stories
-Slug: top-stories-month
-Date: 2016-06-08
 
-
-<style>
-article {
-word-wrap: break-word;
-}
-</style>
-
+Last updated: 2016-06-10
 
 #### [WP] "Adulthood is like looking both ways before you cross the street, then getting hit by an airplane."
 

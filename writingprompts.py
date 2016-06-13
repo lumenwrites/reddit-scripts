@@ -186,36 +186,6 @@ def write_authors_to_file(sorted_authors):
         with open(filename, "a") as text_file:
             text_file.write(finalstring)
         
-def write_stories_to_file(sorted_comments):
-    # incomplete
-    filename = "/home/ray/projects/orangemind/content/pages/top_stories.md"
-    metadata = "Title: Top stories\nSlug: top-stories\nDate: 2016-06-08\n\n"
-    metadata += "<style>a{color:black;}</style>"
-    with open(filename, "w") as text_file:
-        text_file.write(metadata)
-    
-    for comment in sorted_comments[:100]:
-        prompt = "# " + comment._submission.title + "\n\n"
-        score = "Score: " + str(comment.score) + "\n\n"
-        try:
-            username = comment.author.name            
-            author = "["+username+ "](https://www.reddit.com/user/" + username + "/comments/?sort=top)"              
-        except:
-            author = ""
-
-        storyurl = comment.permalink
-        storyprompt = comment.link_title
-        titlestring = "#### [" + storyprompt + "](" + storyurl + ")  \n"            
-        # url = " [Story url]("+comment.permalink+") "
-        
-        body = comment.body + "\n\n----\n\n" + author + "\n\n" + url + "\n\n----\n\n"
-        story = titlestring + score + author + body
-        with open(filename, "a") as text_file:
-            text_file.write(story)
-    
-        with open(filename, "a") as text_file:
-            text_file.write(finalstring)
-        
 
 
 def test():            

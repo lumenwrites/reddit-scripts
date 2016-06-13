@@ -259,9 +259,3 @@ def final():
 # test()
 # final()
 
-def showcase():
-    
-    sorted_authors = calculate_karma(authors)
-    write_authors_to_file(sorted_authors)            
-
-            
